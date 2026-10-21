@@ -1,0 +1,24 @@
+{
+  "test": "T2",
+  "config": "refine_read2",
+  "workloads": [
+    "read"
+  ],
+  "rates": [
+    320,
+    360,
+    400,
+    480
+  ],
+  "warm": 15,
+  "measure": 30,
+  "drain": 30,
+  "reps": 3,
+  "clients": 32,
+  "readUids": 50,
+  "p95base": {
+    "read": 18.4
+  },
+  "startedAt": "2026-10-21T06:43:22.751Z",
+  "finishedAt": "2026-10-21T06:50:53.792Z"
+}

@@ -1,0 +1,31 @@
+{
+  "workload": "read",
+  "rate": 400,
+  "rep": 3,
+  "warm": 15,
+  "measure": 30,
+  "drain": 30,
+  "clients": 32,
+  "startedAt": "2026-10-21T06:35:58.917Z",
+  "submittedInWindow": 12000,
+  "nominalInWindow": 12000,
+  "completedInWindow": 12000,
+  "validInWindow": 0,
+  "failedInWindow": 12000,
+  "unresolvedAfterDrain": 0,
+  "lambdaMeasured": 400,
+  "throughput": 400,
+  "goodput": 0,
+  "failRate": 1,
+  "p50": null,
+  "p95": null,
+  "p99": null,
+  "mean": null,
+  "endorseMean": null,
+  "commitMean": null,
+  "maxOutstanding": 4011,
+  "outstandingGrowth": 587,
+  "failures": {
+    "EVALUATE:GRPC_DEADLINE_EXCEEDED": 12000
+  }
+}

@@ -1,0 +1,78 @@
+nohup: ignoring input
+T5 main: guasti F1,F2,F3,F4, 3 ripetizioni, scritture 32 TPS, letture 64 TPS, finestra 60+30+90 s
+Preparati 20 UID per le letture
+== F1 rep 1
+   F1: guasto iniettato (stop of peer0.producers)
+   F1: ripristino
+   scritture: buco max 31.3 s, recupero dopo ripristino 1.3 s; letture: buco max 1.6 s, recupero 1.0 s
+   errori scritture {"ENDORSE:GRPC_ABORTED":166,"ENDORSE:GRPC_UNAVAILABLE":835}; errori letture {}
+   riconciliazione: {"validClient":4759,"validOnBoth":4759,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":1001,"mismatch":0,"lotsChecked":9518,"lotsMissing":0}; altezze 17071/17071 -> STATO CONSISTENTE
+== F1 rep 2
+   F1: guasto iniettato (stop of peer0.producers)
+   F1: ripristino
+   scritture: buco max 30.9 s, recupero dopo ripristino 0.8 s; letture: buco max 1.6 s, recupero 0.6 s
+   errori scritture {"ENDORSE:GRPC_ABORTED":169,"ENDORSE:GRPC_UNAVAILABLE":818}; errori letture {}
+   riconciliazione: {"validClient":4773,"validOnBoth":4773,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":987,"mismatch":0,"lotsChecked":9546,"lotsMissing":0}; altezze 17550/17550 -> STATO CONSISTENTE
+== F1 rep 3
+   F1: guasto iniettato (stop of peer0.producers)
+   F1: ripristino
+   scritture: buco max 30.8 s, recupero dopo ripristino 0.8 s; letture: buco max 1.6 s, recupero 0.6 s
+   errori scritture {"ENDORSE:GRPC_ABORTED":126,"ENDORSE:GRPC_UNAVAILABLE":860}; errori letture {}
+   riconciliazione: {"validClient":4774,"validOnBoth":4774,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":986,"mismatch":0,"lotsChecked":9548,"lotsMissing":0}; altezze 18029/18029 -> STATO CONSISTENTE
+== F2 rep 1
+   F2: guasto iniettato (stop of the ordering service)
+   F2: ripristino
+   scritture: buco max 44.9 s, recupero dopo ripristino 14.9 s; letture: buco max 1.1 s, recupero 0.5 s
+   errori scritture {"SUBMIT:GRPC_UNAVAILABLE":1436}; errori letture {}
+   riconciliazione: {"validClient":4324,"validOnBoth":4324,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":1436,"endorseRejected":0,"mismatch":0,"lotsChecked":8648,"lotsMissing":0}; altezze 18463/18463 -> STATO CONSISTENTE
+== F2 rep 2
+   F2: guasto iniettato (stop of the ordering service)
+   F2: ripristino
+   scritture: buco max 44.8 s, recupero dopo ripristino 14.7 s; letture: buco max 0.9 s, recupero 0.5 s
+   errori scritture {"SUBMIT:GRPC_UNAVAILABLE":1432}; errori letture {}
+   riconciliazione: {"validClient":4328,"validOnBoth":4328,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":1432,"endorseRejected":0,"mismatch":0,"lotsChecked":8656,"lotsMissing":0}; altezze 18897/18897 -> STATO CONSISTENTE
+== F2 rep 3
+   F2: guasto iniettato (stop of the ordering service)
+   F2: ripristino
+   scritture: buco max 44.0 s, recupero dopo ripristino 14.0 s; letture: buco max 1.1 s, recupero 0.8 s
+   errori scritture {"SUBMIT:GRPC_UNAVAILABLE":1408}; errori letture {}
+   riconciliazione: {"validClient":4352,"validOnBoth":4352,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":1408,"endorseRejected":0,"mismatch":0,"lotsChecked":8704,"lotsMissing":0}; altezze 19334/19334 -> STATO CONSISTENTE
+== F3 rep 1
+   F3: guasto iniettato (kill of the certificate chaincode container (Farmers))
+   F3: ripristino
+   scritture: buco max 0.5 s, recupero dopo ripristino 0.0 s; letture: buco max 0.6 s, recupero 0.0 s
+   errori scritture {}; errori letture {}
+   riconciliazione: {"validClient":5760,"validOnBoth":5760,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":0,"mismatch":0,"lotsChecked":11520,"lotsMissing":0}; altezze 19911/19911 -> STATO CONSISTENTE
+== F3 rep 2
+   F3: guasto iniettato (kill of the certificate chaincode container (Farmers))
+   F3: ripristino
+   scritture: buco max 0.5 s, recupero dopo ripristino 0.0 s; letture: buco max 0.5 s, recupero 0.0 s
+   errori scritture {}; errori letture {}
+   riconciliazione: {"validClient":5760,"validOnBoth":5760,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":0,"mismatch":0,"lotsChecked":11520,"lotsMissing":0}; altezze 20488/20488 -> STATO CONSISTENTE
+== F3 rep 3
+   F3: guasto iniettato (kill of the certificate chaincode container (Farmers))
+   F3: ripristino
+   scritture: buco max 0.5 s, recupero dopo ripristino 0.0 s; letture: buco max 0.5 s, recupero 0.0 s
+   errori scritture {}; errori letture {}
+   riconciliazione: {"validClient":5760,"validOnBoth":5760,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":0,"mismatch":0,"lotsChecked":11520,"lotsMissing":0}; altezze 21065/21065 -> STATO CONSISTENTE
+== F4 rep 1
+   F4: guasto iniettato (network partition of peer0.producers)
+   F4: ripristino
+   scritture: buco max 21.8 s, recupero dopo ripristino 0.5 s; letture: buco max 1.1 s, recupero 0.5 s
+   errori scritture {"ENDORSE:GRPC_ABORTED":696}; errori letture {}
+   riconciliazione: {"validClient":5064,"validOnBoth":5064,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":696,"mismatch":0,"lotsChecked":10128,"lotsMissing":0}; altezze 21573/21573 -> STATO CONSISTENTE
+== F4 rep 2
+   F4: guasto iniettato (network partition of peer0.producers)
+   F4: ripristino
+   scritture: buco max 0.8 s, recupero dopo ripristino 0.5 s; letture: buco max 0.8 s, recupero 0.5 s
+   errori scritture {}; errori letture {}
+   riconciliazione: {"validClient":5760,"validOnBoth":5760,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":0,"mismatch":0,"lotsChecked":11520,"lotsMissing":0}; altezze 22150/22150 -> STATO CONSISTENTE
+== F4 rep 3
+   F4: guasto iniettato (network partition of peer0.producers)
+   F4: ripristino
+   scritture: buco max 21.7 s, recupero dopo ripristino 0.6 s; letture: buco max 0.8 s, recupero 0.6 s
+   errori scritture {"ENDORSE:GRPC_ABORTED":692}; errori letture {}
+   riconciliazione: {"validClient":5068,"validOnBoth":5068,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":692,"mismatch":0,"lotsChecked":10136,"lotsMissing":0}; altezze 22658/22658 -> STATO CONSISTENTE
+
+T5 completato: 12/12 esecuzioni con stato consistente dopo il recupero
+Dati salvati in ~/spectra_benchmark_W/results/T5/main

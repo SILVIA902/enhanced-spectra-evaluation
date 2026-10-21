@@ -1,0 +1,20 @@
+{
+  "profile": "A",
+  "param": 10,
+  "rep": 3,
+  "requests": 10,
+  "valid": 10,
+  "failed": 0,
+  "unresolved": 0,
+  "completionMs": 102.683774000001,
+  "drainMs": 102.70739899999899,
+  "releaseSpreadMs": 13.59110900000087,
+  "p50": 94.71032699999887,
+  "p95": 101.13355575000188,
+  "p99": 101.62410795000095,
+  "max": 101.74674600000071,
+  "meanLat": 95.03091460000033,
+  "maxOutstanding": 10,
+  "failures": {},
+  "blocks": 1
+}

@@ -1,0 +1,49 @@
+{
+  "fault": "F4",
+  "label": "network partition of peer0.producers",
+  "rep": 1,
+  "wrate": 32,
+  "rrate": 64,
+  "baseline": 60,
+  "faultWindow": 30,
+  "observe": 90,
+  "startedAt": "2026-10-21T08:06:51.183Z",
+  "faultRelMs": 60001.73995899991,
+  "restoreRelMs": 90001.73075499991,
+  "faultDetail": "",
+  "writes": 5760,
+  "reads": 11520,
+  "unresolvedAfterDrain": 0,
+  "writeOutage": {
+    "maxGapMs": 21822.968515000073,
+    "gapStartRelFault": -31.974673999939114
+  },
+  "readOutage": {
+    "maxGapMs": 1062.9172229999676,
+    "gapStartRelFault": -0.3323329999111593
+  },
+  "writeRecoveryMs": 495.9936190000735,
+  "readRecoveryMs": 500.74638699996285,
+  "failures": {
+    "write": {
+      "ENDORSE:GRPC_ABORTED": 696
+    },
+    "read": {}
+  },
+  "healthyAfterMs": 2054,
+  "heightsEqual": true,
+  "heightFarmers": 21573,
+  "heightProducers": 21573,
+  "reconciliation": {
+    "validClient": 5064,
+    "validOnBoth": 5064,
+    "unknownResolvedValid": 0,
+    "unknownResolvedInvalid": 0,
+    "unknownNotCommitted": 0,
+    "endorseRejected": 696,
+    "mismatch": 0,
+    "lotsChecked": 10128,
+    "lotsMissing": 0
+  },
+  "consistent": true
+}

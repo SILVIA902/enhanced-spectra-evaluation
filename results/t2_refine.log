@@ -1,0 +1,29 @@
+nohup: ignoring input
+T2 refine_write: workload write, tassi 160,200,240,280,320 TPS, finestra 15+30+30 s, 3 ripetizioni, 32 connessioni client
+write: riferimento P95 fissato a 946.3 ms
+write  160 TPS rep 1: lambda 160.0  goodput 160.0  P50 75.7  P95 104.0 ms  errori 0.00%  backlog max 37  sostenibile
+write  160 TPS rep 2: lambda 160.0  goodput 160.0  P50 81.3  P95 840.2 ms  errori 0.00%  backlog max 223  sostenibile
+write  160 TPS rep 3: lambda 160.0  goodput 160.0  P50 80.6  P95 114.0 ms  errori 0.00%  backlog max 31  sostenibile
+write  200 TPS rep 1: lambda 200.0  goodput 200.0  P50 114.8  P95 161.8 ms  errori 0.00%  backlog max 41  sostenibile
+write  200 TPS rep 2: lambda 199.9  goodput 199.9  P50 4205.2  P95 6458.4 ms  errori 0.00%  backlog max 1374  NON sostenibile (P95>2*base, backlog growing)
+write  200 TPS rep 3: lambda 200.9  goodput 200.9  P50 9432.7  P95 10877.1 ms  errori 0.00%  backlog max 2194  NON sostenibile (P95>2*base, backlog growing)
+write  240 TPS rep 1: lambda 242.1  goodput 242.1  P50 21549.1  P95 29044.5 ms  errori 0.00%  backlog max 6920  NON sostenibile (P95>2*base, backlog growing)
+write  240 TPS rep 2: lambda 242.0  goodput 242.0  P50 24325.6  P95 34207.0 ms  errori 0.00%  backlog max 8485  NON sostenibile (P95>2*base, backlog growing)
+write  240 TPS rep 3: lambda 235.8  goodput 235.8  P50 22815.2  P95 31906.4 ms  errori 0.00%  backlog max 7269  NON sostenibile (P95>2*base, backlog growing)
+write: due livelli consecutivi non sostenibili, sweep interrotto.
+write: completato in 8.1 min
+
+T2 completato. Riepilogo: ~/spectra_benchmark_W/results/T2/refine_write/sweep_summary.csv
+T2 refine_read: workload read, tassi 320,400,480,560,640 TPS, finestra 15+30+30 s, 3 ripetizioni, 32 connessioni client
+Preparati 50 UID per le letture in 1.4 s
+read: riferimento P95 fissato a 18.4 ms
+read   320 TPS rep 1: lambda 320.0  goodput 320.0  P50 2005.8  P95 2170.7 ms  errori 0.00%  backlog max 720  NON sostenibile (P95>2*base)
+read   320 TPS rep 2: lambda 320.0  goodput 320.0  P50 27.4  P95 44.3 ms  errori 0.00%  backlog max 136  NON sostenibile (P95>2*base)
+read   320 TPS rep 3: lambda 320.0  goodput 320.0  P50 1067.6  P95 1691.4 ms  errori 0.00%  backlog max 556  NON sostenibile (P95>2*base, backlog growing)
+read   400 TPS rep 1: lambda 400.0  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 4012  NON sostenibile (goodput<0.95*lambda, fail>1%, backlog growing)
+read   400 TPS rep 2: lambda 400.0  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 4011  NON sostenibile (goodput<0.95*lambda, fail>1%, backlog growing)
+read   400 TPS rep 3: lambda 400.0  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 4011  NON sostenibile (goodput<0.95*lambda, fail>1%, backlog growing)
+read: due livelli consecutivi non sostenibili, sweep interrotto.
+read: completato in 5.4 min
+
+T2 completato. Riepilogo: ~/spectra_benchmark_W/results/T2/refine_read/sweep_summary.csv

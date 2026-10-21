@@ -1,0 +1,10 @@
+{
+  "test": "T1",
+  "config": "bt2s",
+  "run": 3,
+  "warmup": 3,
+  "iterations": 60,
+  "failedIterations": 0,
+  "startedAt": "2026-10-20T13:15:15.278Z",
+  "finishedAt": "2026-10-20T13:28:11.834Z"
+}

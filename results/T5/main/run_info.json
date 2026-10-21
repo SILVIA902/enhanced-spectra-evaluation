@@ -1,0 +1,18 @@
+{
+  "test": "T5",
+  "config": "main",
+  "faults": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+  "reps": 3,
+  "wrate": 32,
+  "rrate": 64,
+  "baseline": 60,
+  "fault": 30,
+  "observe": 90,
+  "startedAt": "2026-10-21T07:34:21.261Z",
+  "finishedAt": "2026-10-21T08:17:26.521Z"
+}

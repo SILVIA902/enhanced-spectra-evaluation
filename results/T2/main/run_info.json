@@ -1,0 +1,26 @@
+{
+  "test": "T2",
+  "config": "main",
+  "workloads": [
+    "write",
+    "read"
+  ],
+  "rates": [
+    10,
+    20,
+    40,
+    80,
+    160,
+    320,
+    640,
+    1280
+  ],
+  "warm": 15,
+  "measure": 30,
+  "drain": 30,
+  "reps": 3,
+  "clients": 32,
+  "readUids": 50,
+  "startedAt": "2026-10-20T15:05:42.359Z",
+  "finishedAt": "2026-10-20T15:47:10.183Z"
+}

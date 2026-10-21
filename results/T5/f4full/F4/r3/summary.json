@@ -1,0 +1,50 @@
+{
+  "fault": "F4",
+  "label": "network partition of peer0.producers (all networks)",
+  "rep": 3,
+  "wrate": 32,
+  "rrate": 64,
+  "baseline": 60,
+  "faultWindow": 30,
+  "observe": 90,
+  "startedAt": "2026-10-21T08:42:40.537Z",
+  "faultRelMs": 60002.09707700007,
+  "restoreRelMs": 90001.87278500001,
+  "faultDetail": "disconnected from compose_fabric_test,fabric_test",
+  "writes": 5760,
+  "reads": 11520,
+  "unresolvedAfterDrain": 0,
+  "writeOutage": {
+    "maxGapMs": 30906.36600000004,
+    "gapStartRelFault": -32.978007000056095
+  },
+  "readOutage": {
+    "maxGapMs": 1446.979634999996,
+    "gapStartRelFault": -0.6522070000646636
+  },
+  "writeRecoveryMs": 873.6122850000393,
+  "readRecoveryMs": 530.4777910000412,
+  "failures": {
+    "write": {
+      "ENDORSE:GRPC_ABORTED": 813,
+      "ENDORSE:GRPC_UNAVAILABLE": 175
+    },
+    "read": {}
+  },
+  "healthyAfterMs": 2048,
+  "heightsEqual": true,
+  "heightFarmers": 24094,
+  "heightProducers": 24094,
+  "reconciliation": {
+    "validClient": 4772,
+    "validOnBoth": 4772,
+    "unknownResolvedValid": 0,
+    "unknownResolvedInvalid": 0,
+    "unknownNotCommitted": 0,
+    "endorseRejected": 988,
+    "mismatch": 0,
+    "lotsChecked": 9544,
+    "lotsMissing": 0
+  },
+  "consistent": true
+}

@@ -1,0 +1,10 @@
+node,kb,path
+peer0.farmers.example.com,12868,chains
+peer0.farmers.example.com,3120,stateLeveldb
+peer0.farmers.example.com,204,pvtdataStore
+peer0.farmers.example.com,576,historyLeveldb
+peer0.producers.example.com,12868,chains
+peer0.producers.example.com,3120,stateLeveldb
+peer0.producers.example.com,204,pvtdataStore
+peer0.producers.example.com,576,historyLeveldb
+orderer.example.com,12312,chains

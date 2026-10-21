@@ -1,0 +1,29 @@
+{
+  "test": "T4",
+  "config": "main",
+  "profiles": [
+    "A",
+    "B",
+    "C"
+  ],
+  "reps": 5,
+  "bursts": [
+    10,
+    50,
+    100,
+    200
+  ],
+  "pbSize": 50,
+  "pbPeriod": 5,
+  "pbDuration": 60,
+  "poisson": [
+    80,
+    128
+  ],
+  "pcDuration": 60,
+  "seed": 20261021,
+  "gap": 10,
+  "clients": 32,
+  "startedAt": "2026-10-21T07:05:20.208Z",
+  "finishedAt": "2026-10-21T07:26:19.777Z"
+}

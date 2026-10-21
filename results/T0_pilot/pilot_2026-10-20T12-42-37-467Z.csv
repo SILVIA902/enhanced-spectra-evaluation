@@ -1,0 +1,13 @@
+test,config,run,req_id,op,client,t0_epoch_ms,l_endorse_ms,l_submit_ms,l_commit_ms,l_e2e_ms,tx_id,block,status,failure_class
+T0,pilot,1,1,RegisterProduction,bench-farmer,1792500144903.881,120.330,7.953,2033.394,2161.677,7c3575939bfd3dc1e7e4f48b09eef0851320c59492818c6fb0ce93e871520aca,17,VALID,
+T0,pilot,1,2,RegisterTransformation,bench-producer,1792500147066.626,43.740,6.570,2030.484,2080.794,eb644dc67127a89de99d6d65a6f2dfbca9d62e8dcc451e5673fb89e1eae4cb4d,18,VALID,
+T0,pilot,1,3,GetProductionByLotCode,bench-farmer,1792500149148.107,,,,11.150,,,OK,
+T0,pilot,1,4,CreatePackageForLot,bench-producer,1792500149159.484,26.508,4.496,2030.578,2061.582,ea9c86bb79dbf2d165cd212db567631572693ef1ef4dd9bacced8e170d493197,19,VALID,
+T0,pilot,1,5,RegisterBindingForPackage,bench-producer,1792500151221.395,33.550,3.705,2032.997,2070.253,78969d3ee17e5eefc13ddd4b82a365cb04117407ea7a2c760631c01134f0e0e5,20,VALID,
+T0,pilot,1,6,GetCert,bench-producer,1792500153292.192,,,,7.986,,,OK,
+T0,pilot,1,7,VerifyCertIntegrity,bench-producer,1792500153300.376,,,,5.978,,,OK,
+T0,pilot,1,8,CheckAuthorized,bench-producer,1792500153306.498,,,,9.007,,,OK,
+T0,pilot,1,9,VerifyByUID,bench-consumer,1792500153315.809,,,,30.036,,,OK,
+T0,pilot,1,10,ConsumeByUID,bench-consumer,1792500153346.501,23.862,3.088,2025.641,2052.590,e83fe8c06f4cc827ae0ec2989b5a4601693154ed8e929b86f08fd081bcdb1cf3,21,VALID,
+T0,pilot,1,11,VerifyByUID,bench-consumer,1792500155399.416,,,,16.368,,,OK,
+T0,pilot,1,12,ConsumeByUID,bench-consumer,1792500155415.956,18.997,2.832,2027.663,2049.492,469cc6ced3b2b77f77ac0ba620e8dd6e8050006242b36af3c45108e628b0d399,22,VALID,

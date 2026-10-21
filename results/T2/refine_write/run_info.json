@@ -1,0 +1,25 @@
+{
+  "test": "T2",
+  "config": "refine_write",
+  "workloads": [
+    "write"
+  ],
+  "rates": [
+    160,
+    200,
+    240,
+    280,
+    320
+  ],
+  "warm": 15,
+  "measure": 30,
+  "drain": 30,
+  "reps": 3,
+  "clients": 32,
+  "readUids": 0,
+  "p95base": {
+    "write": 946.3
+  },
+  "startedAt": "2026-10-21T06:23:14.291Z",
+  "finishedAt": "2026-10-21T06:31:22.262Z"
+}

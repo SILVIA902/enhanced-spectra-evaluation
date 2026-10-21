@@ -1,0 +1,31 @@
+{
+  "workload": "write",
+  "rate": 640,
+  "rep": 1,
+  "warm": 15,
+  "measure": 30,
+  "drain": 30,
+  "clients": 32,
+  "startedAt": "2026-10-20T15:22:02.532Z",
+  "submittedInWindow": 19283,
+  "nominalInWindow": 19200,
+  "completedInWindow": 19267,
+  "validInWindow": 0,
+  "failedInWindow": 19267,
+  "unresolvedAfterDrain": 1124,
+  "lambdaMeasured": 642.7666666666667,
+  "throughput": 642.2333333333333,
+  "goodput": 0,
+  "failRate": 1,
+  "p50": null,
+  "p95": null,
+  "p99": null,
+  "mean": null,
+  "endorseMean": null,
+  "commitMean": null,
+  "maxOutstanding": 19967,
+  "outstandingGrowth": 6769.166666666668,
+  "failures": {
+    "ENDORSE:OTHER": 19267
+  }
+}

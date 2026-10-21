@@ -1,0 +1,6 @@
+component,kb_per_workflow_mean,kb_per_workflow_sd,runs
+Block files (peer),49.359,0.057,5
+World state (LevelDB),11.759,0.028,5
+Private data store,0.686,0.053,5
+History database,2.159,0.000,5
+Block files (orderer),47.302,0.000,5

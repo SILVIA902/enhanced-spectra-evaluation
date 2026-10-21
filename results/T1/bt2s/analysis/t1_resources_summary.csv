@@ -1,0 +1,8 @@
+container,cpu_mean_pct,cpu_mean_sd,cpu_max_pct,mem_mean_mib,mem_mean_sd,samples
+Peer (Farmers),1.874,0.127,7.870,125.860,3.548,1005.000
+Peer (Producers),1.943,0.094,6.390,119.434,5.955,1005.000
+Orderer,0.310,0.008,5.920,58.360,10.416,1005.000
+certificate CC (Farmers),0.332,0.029,3.080,55.059,0.383,1005.000
+certificate CC (Producers),0.397,0.048,4.020,54.145,0.431,1005.000
+userauth CC (Farmers),0.160,0.028,4.070,53.403,0.481,1005.000
+userauth CC (Producers),0.177,0.024,3.970,54.180,0.679,1005.000

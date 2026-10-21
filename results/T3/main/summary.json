@@ -1,0 +1,255 @@
+{
+  "config": "main",
+  "reps": 3,
+  "targetsPerK": 10,
+  "ks": [
+    2,
+    5,
+    10,
+    20
+  ],
+  "subtests": [
+    "a",
+    "b1",
+    "b2",
+    "c"
+  ],
+  "prep": {
+    "seconds": 23.611,
+    "validTx": 4290,
+    "retried": 29,
+    "concurrency": 40,
+    "retryReasons": {
+      "RegisterTransformation:ENDORSE:ERROR_INPUT_NOT_FOUND": 27,
+      "CreatePackageForLot:ENDORSE:ERROR_OUTPUT_LOT_NOT_FOUND": 2
+    }
+  },
+  "startedAt": "2026-10-20T14:10:58.546Z",
+  "finishedAt": "2026-10-20T14:20:16.800Z",
+  "results": [
+    {
+      "sub": "a",
+      "k": 2,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "COMMITTED": 30,
+        "MVCC_CONFLICT": 30
+      },
+      "spreadMax": 1.9641149999988556
+    },
+    {
+      "sub": "a",
+      "k": 5,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "COMMITTED": 30,
+        "MVCC_CONFLICT": 120
+      },
+      "spreadMax": 4.505604000005405
+    },
+    {
+      "sub": "a",
+      "k": 10,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 270,
+        "COMMITTED": 30
+      },
+      "spreadMax": 4.793023999998695
+    },
+    {
+      "sub": "a",
+      "k": 20,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 570,
+        "COMMITTED": 30
+      },
+      "spreadMax": 11.664875000016764
+    },
+    {
+      "sub": "b1",
+      "k": 2,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 30,
+        "COMMITTED": 30
+      },
+      "spreadMax": 0.9402189999818802
+    },
+    {
+      "sub": "b1",
+      "k": 5,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 120,
+        "COMMITTED": 30
+      },
+      "spreadMax": 3.618399999977555
+    },
+    {
+      "sub": "b1",
+      "k": 10,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 270,
+        "COMMITTED": 30
+      },
+      "spreadMax": 4.818885000015143
+    },
+    {
+      "sub": "b1",
+      "k": 20,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 570,
+        "COMMITTED": 30
+      },
+      "spreadMax": 9.902312999998685
+    },
+    {
+      "sub": "b2",
+      "k": 2,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 30,
+        "COMMITTED": 30
+      },
+      "spreadMax": 0.8837760000023991
+    },
+    {
+      "sub": "b2",
+      "k": 5,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "COMMITTED": 30,
+        "MVCC_CONFLICT": 120
+      },
+      "spreadMax": 3.2907479999994393
+    },
+    {
+      "sub": "b2",
+      "k": 10,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "COMMITTED": 30,
+        "MVCC_CONFLICT": 270
+      },
+      "spreadMax": 6.993773000023793
+    },
+    {
+      "sub": "b2",
+      "k": 20,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 570,
+        "COMMITTED": 30
+      },
+      "spreadMax": 8.88083799998276
+    },
+    {
+      "sub": "c",
+      "k": 2,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 30,
+        "COMMITTED": 30
+      },
+      "spreadMax": 1.1586499999975786
+    },
+    {
+      "sub": "c",
+      "k": 5,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "MVCC_CONFLICT": 120,
+        "COMMITTED": 30
+      },
+      "spreadMax": 4.62833999999566
+    },
+    {
+      "sub": "c",
+      "k": 10,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "COMMITTED": 30,
+        "MVCC_CONFLICT": 270
+      },
+      "spreadMax": 6.85603799999808
+    },
+    {
+      "sub": "c",
+      "k": 20,
+      "targets": 30,
+      "exactlyOne": 30,
+      "violations": 0,
+      "noCommit": 0,
+      "postFail": 0,
+      "outcomes": {
+        "COMMITTED": 30,
+        "MVCC_CONFLICT": 570
+      },
+      "spreadMax": 11.4311779999407
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+nohup: ignoring input
+T8 main: parti A,B; fan-in 1,5,10,25,50,100 (3 run x 8 iterazioni); profondita 1,5,10,20 (5 catene); 5 verifiche per certificato
+A fan-in   1 run 1 iter 0 (riscaldamento): ok 11.0 s
+A fan-in   1 run 1 iter 1: ok 10.9 s
+A fan-in   1 run 1 iter 2: ok 10.9 s
+A fan-in   1 run 1 iter 3: ok 10.9 s
+A fan-in   1 run 1 iter 4: ok 10.8 s
+A fan-in   1 run 1 iter 5: ok 10.9 s
+A fan-in   1 run 1 iter 6: ok 10.9 s
+A fan-in   1 run 1 iter 7: ok 10.9 s
+A fan-in   1 run 1 iter 8: ok 10.9 s
+A fan-in   1 run 2 iter 0 (riscaldamento): ok 10.9 s
+A fan-in   1 run 2 iter 1: ok 10.8 s
+A fan-in   1 run 2 iter 2: ok 10.9 s
+A fan-in   1 run 2 iter 3: ok 10.8 s
+A fan-in   1 run 2 iter 4: ok 10.9 s
+A fan-in   1 run 2 iter 5: ok 10.9 s
+A fan-in   1 run 2 iter 6: ok 10.8 s
+A fan-in   1 run 2 iter 7: ok 10.8 s
+A fan-in   1 run 2 iter 8: ok 10.8 s
+A fan-in   1 run 3 iter 0 (riscaldamento): ok 10.8 s
+A fan-in   1 run 3 iter 1: ok 10.9 s
+A fan-in   1 run 3 iter 2: ok 10.8 s
+A fan-in   1 run 3 iter 3: ok 10.8 s
+A fan-in   1 run 3 iter 4: ok 10.8 s
+A fan-in   1 run 3 iter 5: ok 10.8 s
+A fan-in   1 run 3 iter 6: ok 10.9 s
+A fan-in   1 run 3 iter 7: ok 10.8 s
+A fan-in   1 run 3 iter 8: ok 10.9 s
+A fan-in   5 run 1 iter 0 (riscaldamento): ok 10.9 s
+A fan-in   5 run 1 iter 1: ok 10.9 s
+A fan-in   5 run 1 iter 2: ok 10.9 s
+A fan-in   5 run 1 iter 3: ok 10.9 s
+A fan-in   5 run 1 iter 4: ok 10.8 s
+A fan-in   5 run 1 iter 5: ok 10.9 s
+A fan-in   5 run 1 iter 6: ok 10.8 s
+A fan-in   5 run 1 iter 7: ok 10.9 s
+A fan-in   5 run 1 iter 8: ok 10.9 s
+A fan-in   5 run 2 iter 0 (riscaldamento): ok 10.8 s
+A fan-in   5 run 2 iter 1: ok 10.9 s
+A fan-in   5 run 2 iter 2: ok 10.8 s
+A fan-in   5 run 2 iter 3: ok 10.8 s
+A fan-in   5 run 2 iter 4: ok 10.9 s
+A fan-in   5 run 2 iter 5: ok 10.8 s
+A fan-in   5 run 2 iter 6: ok 10.9 s
+A fan-in   5 run 2 iter 7: ok 10.8 s
+A fan-in   5 run 2 iter 8: ok 10.9 s
+A fan-in   5 run 3 iter 0 (riscaldamento): ok 10.8 s
+A fan-in   5 run 3 iter 1: ok 10.8 s
+A fan-in   5 run 3 iter 2: ok 10.9 s
+A fan-in   5 run 3 iter 3: ok 10.9 s
+A fan-in   5 run 3 iter 4: ok 10.8 s
+A fan-in   5 run 3 iter 5: ok 10.9 s
+A fan-in   5 run 3 iter 6: ok 10.9 s
+A fan-in   5 run 3 iter 7: ok 10.8 s
+A fan-in   5 run 3 iter 8: ok 10.8 s
+A fan-in  10 run 1 iter 0 (riscaldamento): ok 8.9 s
+A fan-in  10 run 1 iter 1: ok 8.9 s
+A fan-in  10 run 1 iter 2: ok 8.9 s
+A fan-in  10 run 1 iter 3: ok 8.9 s
+A fan-in  10 run 1 iter 4: ok 8.9 s
+A fan-in  10 run 1 iter 5: ok 8.9 s
+A fan-in  10 run 1 iter 6: ok 8.9 s
+A fan-in  10 run 1 iter 7: ok 8.9 s
+A fan-in  10 run 1 iter 8: ok 8.9 s
+A fan-in  10 run 2 iter 0 (riscaldamento): ok 8.9 s
+A fan-in  10 run 2 iter 1: ok 8.9 s
+A fan-in  10 run 2 iter 2: ok 8.9 s
+A fan-in  10 run 2 iter 3: ok 8.9 s
+A fan-in  10 run 2 iter 4: ok 8.9 s
+A fan-in  10 run 2 iter 5: ok 8.9 s
+A fan-in  10 run 2 iter 6: ok 8.9 s
+A fan-in  10 run 2 iter 7: ok 8.9 s
+A fan-in  10 run 2 iter 8: ok 8.9 s
+A fan-in  10 run 3 iter 0 (riscaldamento): ok 8.9 s
+A fan-in  10 run 3 iter 1: ok 8.9 s
+A fan-in  10 run 3 iter 2: ok 8.9 s
+A fan-in  10 run 3 iter 3: ok 8.9 s
+A fan-in  10 run 3 iter 4: ok 8.9 s
+A fan-in  10 run 3 iter 5: ok 8.9 s
+A fan-in  10 run 3 iter 6: ok 8.9 s
+A fan-in  10 run 3 iter 7: ok 8.9 s
+A fan-in  10 run 3 iter 8: ok 8.9 s
+A fan-in  25 run 1 iter 0 (riscaldamento): ok 11.0 s
+A fan-in  25 run 1 iter 1: ok 11.0 s
+A fan-in  25 run 1 iter 2: ok 11.0 s
+A fan-in  25 run 1 iter 3: ok 11.0 s
+A fan-in  25 run 1 iter 4: ok 11.0 s
+A fan-in  25 run 1 iter 5: ok 11.0 s
+A fan-in  25 run 1 iter 6: ok 11.0 s
+A fan-in  25 run 1 iter 7: ok 11.0 s
+A fan-in  25 run 1 iter 8: ok 11.0 s
+A fan-in  25 run 2 iter 0 (riscaldamento): ok 11.0 s
+A fan-in  25 run 2 iter 1: ok 11.0 s
+A fan-in  25 run 2 iter 2: ok 11.0 s
+A fan-in  25 run 2 iter 3: ok 11.0 s
+A fan-in  25 run 2 iter 4: ok 11.0 s
+A fan-in  25 run 2 iter 5: ok 11.0 s
+A fan-in  25 run 2 iter 6: ok 11.0 s
+A fan-in  25 run 2 iter 7: ok 11.0 s
+A fan-in  25 run 2 iter 8: ok 10.9 s
+A fan-in  25 run 3 iter 0 (riscaldamento): ok 11.0 s
+A fan-in  25 run 3 iter 1: ok 11.0 s
+A fan-in  25 run 3 iter 2: ok 11.0 s
+A fan-in  25 run 3 iter 3: ok 11.0 s
+A fan-in  25 run 3 iter 4: ok 11.0 s
+A fan-in  25 run 3 iter 5: ok 10.9 s
+A fan-in  25 run 3 iter 6: ok 11.0 s
+A fan-in  25 run 3 iter 7: ok 11.0 s
+A fan-in  25 run 3 iter 8: ok 11.0 s
+A fan-in  50 run 1 iter 0 (riscaldamento): ok 9.2 s
+A fan-in  50 run 1 iter 1: ok 9.2 s
+A fan-in  50 run 1 iter 2: ok 9.1 s
+A fan-in  50 run 1 iter 3: ok 9.1 s
+A fan-in  50 run 1 iter 4: ok 9.1 s
+A fan-in  50 run 1 iter 5: ok 9.2 s
+A fan-in  50 run 1 iter 6: ok 9.1 s
+A fan-in  50 run 1 iter 7: ok 9.1 s
+A fan-in  50 run 1 iter 8: ok 9.1 s
+A fan-in  50 run 2 iter 0 (riscaldamento): ok 9.1 s
+A fan-in  50 run 2 iter 1: ok 9.1 s
+A fan-in  50 run 2 iter 2: ok 9.1 s
+A fan-in  50 run 2 iter 3: ok 9.1 s
+A fan-in  50 run 2 iter 4: ok 9.1 s
+A fan-in  50 run 2 iter 5: ok 9.2 s
+A fan-in  50 run 2 iter 6: ok 9.1 s
+A fan-in  50 run 2 iter 7: ok 9.1 s
+A fan-in  50 run 2 iter 8: ok 9.1 s
+A fan-in  50 run 3 iter 0 (riscaldamento): ok 9.1 s
+A fan-in  50 run 3 iter 1: ok 9.1 s
+A fan-in  50 run 3 iter 2: ok 9.1 s
+A fan-in  50 run 3 iter 3: ok 9.1 s
+A fan-in  50 run 3 iter 4: ok 9.1 s
+A fan-in  50 run 3 iter 5: ok 9.1 s
+A fan-in  50 run 3 iter 6: ok 9.1 s
+A fan-in  50 run 3 iter 7: ok 9.2 s
+A fan-in  50 run 3 iter 8: ok 9.1 s
+A fan-in 100 run 1 iter 0 (riscaldamento): ok 9.3 s
+A fan-in 100 run 1 iter 1: ok 9.4 s
+A fan-in 100 run 1 iter 2: ok 9.4 s
+A fan-in 100 run 1 iter 3: ok 9.4 s
+A fan-in 100 run 1 iter 4: ok 9.4 s
+A fan-in 100 run 1 iter 5: ok 9.5 s
+A fan-in 100 run 1 iter 6: ok 9.4 s
+A fan-in 100 run 1 iter 7: ok 9.4 s
+A fan-in 100 run 1 iter 8: ok 9.4 s
+A fan-in 100 run 2 iter 0 (riscaldamento): ok 9.5 s
+A fan-in 100 run 2 iter 1: ok 9.5 s
+A fan-in 100 run 2 iter 2: ok 9.4 s
+A fan-in 100 run 2 iter 3: ok 9.4 s
+A fan-in 100 run 2 iter 4: ok 9.4 s
+A fan-in 100 run 2 iter 5: ok 9.4 s
+A fan-in 100 run 2 iter 6: ok 9.5 s
+A fan-in 100 run 2 iter 7: ok 9.5 s
+A fan-in 100 run 2 iter 8: ok 9.4 s
+A fan-in 100 run 3 iter 0 (riscaldamento): ok 9.5 s
+A fan-in 100 run 3 iter 1: ok 9.4 s
+A fan-in 100 run 3 iter 2: ok 9.5 s
+A fan-in 100 run 3 iter 3: ok 9.5 s
+A fan-in 100 run 3 iter 4: ok 9.5 s
+A fan-in 100 run 3 iter 5: ok 9.4 s
+A fan-in 100 run 3 iter 6: ok 9.5 s
+A fan-in 100 run 3 iter 7: ok 9.6 s
+A fan-in 100 run 3 iter 8: ok 9.4 s
+B profondita  1 catena 0 (riscaldamento): ok 10.8 s
+B profondita  1 catena 1: ok 10.8 s
+B profondita  1 catena 2: ok 11.0 s
+B profondita  1 catena 3: ok 10.8 s
+B profondita  1 catena 4: ok 10.8 s
+B profondita  1 catena 5: ok 10.8 s
+B profondita  5 catena 0 (riscaldamento): ok 19.0 s
+B profondita  5 catena 1: ok 19.0 s
+B profondita  5 catena 2: ok 19.0 s
+B profondita  5 catena 3: ok 19.0 s
+B profondita  5 catena 4: ok 19.0 s
+B profondita  5 catena 5: ok 19.0 s
+B profondita 10 catena 0 (riscaldamento): ok 29.3 s
+B profondita 10 catena 1: ok 29.3 s
+B profondita 10 catena 2: ok 29.3 s
+B profondita 10 catena 3: ok 29.3 s
+B profondita 10 catena 4: ok 29.3 s
+B profondita 10 catena 5: ok 29.3 s
+B profondita 20 catena 0 (riscaldamento): ok 49.8 s
+B profondita 20 catena 1: ok 50.0 s
+B profondita 20 catena 2: ok 49.9 s
+B profondita 20 catena 3: ok 49.8 s
+B profondita 20 catena 4: ok 49.8 s
+B profondita 20 catena 5: ok 49.8 s
+
+T8 completato. Tentativi ripetuti per propagazione: 0. Dati in ~/spectra_benchmark_W/results/T8/main

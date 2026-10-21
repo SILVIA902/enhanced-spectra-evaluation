@@ -1,0 +1,40 @@
+nohup: ignoring input
+T4 main: 7 configurazioni x 5 ripetizioni; seed 20261021; 32 connessioni
+burst singolo B=10     rep 1: 10/10 valide, completamento 0.11 s, P50 101 P95 105 ms, coda max 10, blocchi 1
+burst singolo B=10     rep 2: 10/10 valide, completamento 0.09 s, P50 81 P95 87 ms, coda max 10, blocchi 1
+burst singolo B=10     rep 3: 10/10 valide, completamento 0.10 s, P50 95 P95 101 ms, coda max 10, blocchi 1
+burst singolo B=10     rep 4: 10/10 valide, completamento 0.08 s, P50 76 P95 80 ms, coda max 10, blocchi 1
+burst singolo B=10     rep 5: 10/10 valide, completamento 0.08 s, P50 73 P95 76 ms, coda max 10, blocchi 1
+burst singolo B=50     rep 1: 50/50 valide, completamento 0.28 s, P50 246 P95 275 ms, coda max 50, blocchi 5
+burst singolo B=50     rep 2: 50/50 valide, completamento 0.27 s, P50 239 P95 264 ms, coda max 50, blocchi 5
+burst singolo B=50     rep 3: 50/50 valide, completamento 0.28 s, P50 230 P95 252 ms, coda max 50, blocchi 5
+burst singolo B=50     rep 4: 50/50 valide, completamento 0.30 s, P50 263 P95 287 ms, coda max 50, blocchi 5
+burst singolo B=50     rep 5: 50/50 valide, completamento 0.24 s, P50 201 P95 221 ms, coda max 50, blocchi 5
+burst singolo B=100    rep 1: 100/100 valide, completamento 0.42 s, P50 372 P95 412 ms, coda max 100, blocchi 10
+burst singolo B=100    rep 2: 100/100 valide, completamento 0.45 s, P50 399 P95 435 ms, coda max 100, blocchi 10
+burst singolo B=100    rep 3: 100/100 valide, completamento 0.44 s, P50 388 P95 428 ms, coda max 100, blocchi 10
+burst singolo B=100    rep 4: 100/100 valide, completamento 0.45 s, P50 395 P95 431 ms, coda max 100, blocchi 10
+burst singolo B=100    rep 5: 100/100 valide, completamento 0.40 s, P50 348 P95 384 ms, coda max 100, blocchi 10
+burst singolo B=200    rep 1: 200/200 valide, completamento 0.84 s, P50 712 P95 785 ms, coda max 200, blocchi 20
+burst singolo B=200    rep 2: 200/200 valide, completamento 0.84 s, P50 711 P95 789 ms, coda max 200, blocchi 20
+burst singolo B=200    rep 3: 200/200 valide, completamento 0.79 s, P50 671 P95 743 ms, coda max 200, blocchi 20
+burst singolo B=200    rep 4: 200/200 valide, completamento 0.77 s, P50 650 P95 728 ms, coda max 200, blocchi 20
+burst singolo B=200    rep 5: 200/200 valide, completamento 0.76 s, P50 608 P95 699 ms, coda max 200, blocchi 20
+burst periodici 50/5s  rep 1: 600/600 valide, completamento 55.24 s, P50 180 P95 215 ms, coda max 50, blocchi 60, bursts_done_before_next=12/12
+burst periodici 50/5s  rep 2: 600/600 valide, completamento 55.22 s, P50 198 P95 238 ms, coda max 50, blocchi 60, bursts_done_before_next=12/12
+burst periodici 50/5s  rep 3: 600/600 valide, completamento 55.20 s, P50 175 P95 203 ms, coda max 50, blocchi 60, bursts_done_before_next=12/12
+burst periodici 50/5s  rep 4: 600/600 valide, completamento 55.23 s, P50 177 P95 212 ms, coda max 50, blocchi 60, bursts_done_before_next=12/12
+burst periodici 50/5s  rep 5: 600/600 valide, completamento 55.22 s, P50 178 P95 210 ms, coda max 50, blocchi 60, bursts_done_before_next=12/12
+Poisson 80 TPS         rep 1: 4743/4743 valide, completamento 62.00 s, P50 89 P95 186 ms, coda max 22, blocchi 475, rate=79.0;cv=1.00
+Poisson 80 TPS         rep 2: 4814/4814 valide, completamento 61.93 s, P50 86 P95 178 ms, coda max 21, blocchi 482, rate=80.2;cv=1.00
+Poisson 80 TPS         rep 3: 4828/4828 valide, completamento 61.99 s, P50 87 P95 183 ms, coda max 21, blocchi 483, rate=80.5;cv=1.03
+Poisson 80 TPS         rep 4: 4749/4749 valide, completamento 61.89 s, P50 86 P95 182 ms, coda max 22, blocchi 475, rate=79.2;cv=1.01
+Poisson 80 TPS         rep 5: 4757/4757 valide, completamento 61.98 s, P50 89 P95 184 ms, coda max 22, blocchi 476, rate=79.3;cv=0.99
+Poisson 128 TPS        rep 1: 7614/7614 valide, completamento 62.02 s, P50 70 P95 127 ms, coda max 29, blocchi 762, rate=126.9;cv=1.00
+Poisson 128 TPS        rep 2: 7675/7675 valide, completamento 62.00 s, P50 73 P95 127 ms, coda max 26, blocchi 768, rate=127.9;cv=0.98
+Poisson 128 TPS        rep 3: 7847/7847 valide, completamento 61.99 s, P50 80 P95 139 ms, coda max 43, blocchi 785, rate=130.8;cv=0.98
+Poisson 128 TPS        rep 4: 7629/7629 valide, completamento 62.00 s, P50 76 P95 128 ms, coda max 29, blocchi 763, rate=127.2;cv=0.99
+Poisson 128 TPS        rep 5: 7657/7657 valide, completamento 62.01 s, P50 78 P95 133 ms, coda max 31, blocchi 766, rate=127.6;cv=1.01
+
+T4 completato: 35 esecuzioni, richieste non valide o non risolte: 0
+Dati salvati in ~/spectra_benchmark_W/results/T4/main

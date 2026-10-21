@@ -1,0 +1,54 @@
+nohup: ignoring input
+T2 main: workload write,read, tassi 10,20,40,80,160,320,640,1280 TPS, finestra 15+30+30 s, 3 ripetizioni, 32 connessioni client
+Preparati 50 UID per le letture in 1.5 s
+write   10 TPS rep 1: lambda 10.0  goodput 10.0  P50 496.0  P95 946.1 ms  errori 0.00%  backlog max 10  sostenibile
+write   10 TPS rep 2: lambda 10.0  goodput 10.0  P50 498.2  P95 945.8 ms  errori 0.00%  backlog max 10  sostenibile
+write   10 TPS rep 3: lambda 10.0  goodput 10.0  P50 498.1  P95 946.8 ms  errori 0.00%  backlog max 10  sostenibile
+write   20 TPS rep 1: lambda 20.0  goodput 20.0  P50 262.3  P95 481.4 ms  errori 0.00%  backlog max 11  sostenibile
+write   20 TPS rep 2: lambda 20.0  goodput 20.0  P50 256.9  P95 479.2 ms  errori 0.00%  backlog max 10  sostenibile
+write   20 TPS rep 3: lambda 20.0  goodput 20.0  P50 256.3  P95 479.1 ms  errori 0.00%  backlog max 10  sostenibile
+write   40 TPS rep 1: lambda 40.0  goodput 40.0  P50 150.9  P95 255.3 ms  errori 0.00%  backlog max 14  sostenibile
+write   40 TPS rep 2: lambda 40.0  goodput 40.0  P50 145.6  P95 255.7 ms  errori 0.00%  backlog max 11  sostenibile
+write   40 TPS rep 3: lambda 40.0  goodput 40.0  P50 145.4  P95 255.5 ms  errori 0.00%  backlog max 11  sostenibile
+write   80 TPS rep 1: lambda 80.0  goodput 80.0  P50 90.7  P95 145.9 ms  errori 0.00%  backlog max 13  sostenibile
+write   80 TPS rep 2: lambda 80.0  goodput 80.0  P50 88.4  P95 144.3 ms  errori 0.00%  backlog max 13  sostenibile
+write   80 TPS rep 3: lambda 80.0  goodput 80.0  P50 87.9  P95 141.6 ms  errori 0.00%  backlog max 13  sostenibile
+write  160 TPS rep 1: lambda 160.0  goodput 160.0  P50 72.8  P95 102.0 ms  errori 0.00%  backlog max 21  sostenibile
+write  160 TPS rep 2: lambda 160.0  goodput 160.0  P50 77.2  P95 105.0 ms  errori 0.00%  backlog max 20  sostenibile
+write  160 TPS rep 3: lambda 160.0  goodput 160.0  P50 86.2  P95 125.1 ms  errori 0.00%  backlog max 23  sostenibile
+write  320 TPS rep 1: lambda 320.4  goodput 320.4  P50 32530.6  P95 40564.0 ms  errori 0.00%  backlog max 12305  NON sostenibile (P95>2*base, backlog growing)
+write  320 TPS rep 2: lambda 321.5  goodput 321.5  P50 31904.2  P95 39530.5 ms  errori 0.01%  backlog max 12798  NON sostenibile (P95>2*base, backlog growing)
+write  320 TPS rep 3: lambda 312.3  goodput 312.3  P50 32797.0  P95 39649.6 ms  errori 0.00%  backlog max 13118  NON sostenibile (P95>2*base, backlog growing)
+write  640 TPS rep 1: lambda 642.8  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 19967  NON sostenibile (goodput<0.95*lambda, fail>1%, backlog growing)
+write  640 TPS rep 2: lambda 664.7  goodput 1.5  P50 49502.2  P95 56722.1 ms  errori 99.78%  backlog max 18126  NON sostenibile (goodput<0.95*lambda, fail>1%, P95>2*base, backlog growing)
+write  640 TPS rep 3: lambda 646.4  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 22244  NON sostenibile (goodput<0.95*lambda, fail>1%, backlog growing)
+write: due livelli consecutivi non sostenibili, sweep interrotto.
+write: completato in 20.2 min
+read    10 TPS rep 1: lambda 10.0  goodput 10.0  P50 10.3  P95 12.4 ms  errori 0.00%  backlog max 2  sostenibile
+read    10 TPS rep 2: lambda 10.0  goodput 10.0  P50 14.8  P95 22.0 ms  errori 0.00%  backlog max 1  sostenibile
+read    10 TPS rep 3: lambda 10.0  goodput 10.0  P50 17.4  P95 20.7 ms  errori 0.00%  backlog max 1  sostenibile
+read    20 TPS rep 1: lambda 20.0  goodput 20.0  P50 15.9  P95 19.5 ms  errori 0.00%  backlog max 1  sostenibile
+read    20 TPS rep 2: lambda 20.0  goodput 20.0  P50 15.7  P95 19.2 ms  errori 0.00%  backlog max 1  sostenibile
+read    20 TPS rep 3: lambda 20.0  goodput 20.0  P50 15.4  P95 18.4 ms  errori 0.00%  backlog max 1  sostenibile
+read    40 TPS rep 1: lambda 40.0  goodput 40.0  P50 13.5  P95 15.7 ms  errori 0.00%  backlog max 1  sostenibile
+read    40 TPS rep 2: lambda 40.0  goodput 40.0  P50 13.6  P95 15.8 ms  errori 0.00%  backlog max 2  sostenibile
+read    40 TPS rep 3: lambda 40.0  goodput 40.0  P50 7.8  P95 14.0 ms  errori 0.00%  backlog max 2  sostenibile
+read    80 TPS rep 1: lambda 80.0  goodput 80.0  P50 6.5  P95 8.3 ms  errori 0.00%  backlog max 2  sostenibile
+read    80 TPS rep 2: lambda 80.0  goodput 80.0  P50 6.8  P95 9.3 ms  errori 0.00%  backlog max 2  sostenibile
+read    80 TPS rep 3: lambda 80.0  goodput 80.0  P50 6.7  P95 9.5 ms  errori 0.00%  backlog max 2  sostenibile
+read   160 TPS rep 1: lambda 160.0  goodput 160.0  P50 7.2  P95 9.0 ms  errori 0.00%  backlog max 3  sostenibile
+read   160 TPS rep 2: lambda 160.0  goodput 160.0  P50 7.1  P95 8.6 ms  errori 0.00%  backlog max 3  sostenibile
+read   160 TPS rep 3: lambda 160.0  goodput 160.0  P50 7.2  P95 9.7 ms  errori 0.00%  backlog max 3  sostenibile
+read   320 TPS rep 1: lambda 320.0  goodput 320.0  P50 11.0  P95 17.1 ms  errori 0.00%  backlog max 15  sostenibile
+read   320 TPS rep 2: lambda 320.0  goodput 320.0  P50 11.0  P95 16.8 ms  errori 0.00%  backlog max 23  sostenibile
+read   320 TPS rep 3: lambda 320.0  goodput 320.0  P50 10.7  P95 16.7 ms  errori 0.00%  backlog max 15  sostenibile
+read   640 TPS rep 1: lambda 640.1  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 6426  NON sostenibile (goodput<0.95*lambda, fail>1%)
+read   640 TPS rep 2: lambda 640.0  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 6457  NON sostenibile (goodput<0.95*lambda, fail>1%)
+read   640 TPS rep 3: lambda 640.0  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 6474  NON sostenibile (goodput<0.95*lambda, fail>1%)
+read  1280 TPS rep 1: lambda 1182.8  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 20622  NON sostenibile (goodput<0.95*lambda, fail>1%, backlog growing)
+read  1280 TPS rep 2: lambda 1014.9  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 26209  NON sostenibile (goodput<0.95*lambda, fail>1%, backlog growing)
+read  1280 TPS rep 3: lambda 1249.3  goodput 0.0  P50 NaN  P95 NaN ms  errori 100.00%  backlog max 14163  NON sostenibile (goodput<0.95*lambda, fail>1%)
+read: due livelli consecutivi non sostenibili, sweep interrotto.
+read: completato in 21.1 min
+
+T2 completato. Riepilogo: ~/spectra_benchmark_W/results/T2/main/sweep_summary.csv

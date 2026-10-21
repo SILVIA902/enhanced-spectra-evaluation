@@ -1,0 +1,24 @@
+nohup: ignoring input
+T5 f4full: guasti F4, 3 ripetizioni, scritture 32 TPS, letture 64 TPS, finestra 60+30+90 s
+Preparati 20 UID per le letture
+== F4 rep 1
+   F4: guasto iniettato (network partition of peer0.producers (all networks))
+   F4: ripristino
+   scritture: buco max 31.2 s, recupero dopo ripristino 1.1 s; letture: buco max 1.6 s, recupero 0.6 s
+   errori scritture {"ENDORSE:GRPC_ABORTED":711,"ENDORSE:GRPC_UNAVAILABLE":285}; errori letture {}
+   riconciliazione: {"validClient":4764,"validOnBoth":4764,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":996,"mismatch":0,"lotsChecked":9528,"lotsMissing":0}; altezze 23156/23156 -> STATO CONSISTENTE
+== F4 rep 2
+   F4: guasto iniettato (network partition of peer0.producers (all networks))
+   F4: ripristino
+   scritture: buco max 37.0 s, recupero dopo ripristino 7.0 s; letture: buco max 1.4 s, recupero 0.6 s
+   errori scritture {"ENDORSE:GRPC_ABORTED":751,"ENDORSE:GRPC_UNAVAILABLE":433}; errori letture {}
+   riconciliazione: {"validClient":4576,"validOnBoth":4576,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":1184,"mismatch":0,"lotsChecked":9152,"lotsMissing":0}; altezze 23615/23615 -> STATO CONSISTENTE
+== F4 rep 3
+   F4: guasto iniettato (network partition of peer0.producers (all networks))
+   F4: ripristino
+   scritture: buco max 30.9 s, recupero dopo ripristino 0.9 s; letture: buco max 1.4 s, recupero 0.5 s
+   errori scritture {"ENDORSE:GRPC_ABORTED":813,"ENDORSE:GRPC_UNAVAILABLE":175}; errori letture {}
+   riconciliazione: {"validClient":4772,"validOnBoth":4772,"unknownResolvedValid":0,"unknownResolvedInvalid":0,"unknownNotCommitted":0,"endorseRejected":988,"mismatch":0,"lotsChecked":9544,"lotsMissing":0}; altezze 24094/24094 -> STATO CONSISTENTE
+
+T5 completato: 3/3 esecuzioni con stato consistente dopo il recupero
+Dati salvati in ~/spectra_benchmark_W/results/T5/f4full

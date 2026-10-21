@@ -1,0 +1,17 @@
+{
+  "name": "certificate_js",
+  "version": "1.0.0",
+  "description": "Certificate chaincode (RegisterProduction, GetProductionByLotCode)",
+  "main": "certificate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fabric-chaincode-node start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fabric-contract-api": "^2.5.8",
+    "fabric-shim": "^2.5.8"
+  }
+}

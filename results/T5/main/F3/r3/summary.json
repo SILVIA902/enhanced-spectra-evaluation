@@ -1,0 +1,47 @@
+{
+  "fault": "F3",
+  "label": "kill of the certificate chaincode container (Farmers)",
+  "rep": 3,
+  "wrate": 32,
+  "rrate": 64,
+  "baseline": 60,
+  "faultWindow": 30,
+  "observe": 90,
+  "startedAt": "2026-10-21T08:03:16.536Z",
+  "faultRelMs": 60001.847610000055,
+  "restoreRelMs": 90001.87368700001,
+  "faultDetail": "dev-peer0.farmers.example.com-certificate_1.0-18d6214123ba63b6e09043e66bfb394288ebfca135793e4fd764d6a608c88530",
+  "writes": 5760,
+  "reads": 11520,
+  "unresolvedAfterDrain": 0,
+  "writeOutage": {
+    "maxGapMs": 512.9829740000423,
+    "gapStartRelFault": -0.8279440000187606
+  },
+  "readOutage": {
+    "maxGapMs": 522.0369859999046,
+    "gapStartRelFault": -0.3059429998975247
+  },
+  "writeRecoveryMs": 30.473020000150427,
+  "readRecoveryMs": 14.019591000163928,
+  "failures": {
+    "write": {},
+    "read": {}
+  },
+  "healthyAfterMs": 2041,
+  "heightsEqual": true,
+  "heightFarmers": 21065,
+  "heightProducers": 21065,
+  "reconciliation": {
+    "validClient": 5760,
+    "validOnBoth": 5760,
+    "unknownResolvedValid": 0,
+    "unknownResolvedInvalid": 0,
+    "unknownNotCommitted": 0,
+    "endorseRejected": 0,
+    "mismatch": 0,
+    "lotsChecked": 11520,
+    "lotsMissing": 0
+  },
+  "consistent": true
+}

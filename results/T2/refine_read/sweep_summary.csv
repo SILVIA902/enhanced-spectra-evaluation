@@ -1,0 +1,7 @@
+workload,rate,rep,lambda_measured,throughput,goodput,fail_rate,p50_ms,p95_ms,p99_ms,mean_ms,endorse_mean_ms,commit_mean_ms,max_outstanding,outstanding_growth,unresolved,sustainable,reasons
+read,320.000,1.000,320.000,320.000,320.000,0.000,2005.828,2170.675,2203.326,1928.772,,,720.000,111.900,0.000,false,P95>2*base
+read,320.000,2.000,320.000,320.000,320.000,0.000,27.417,44.329,52.010,28.798,,,136.000,-0.600,0.000,false,P95>2*base
+read,320.000,3.000,320.000,320.000,320.000,0.000,1067.589,1691.372,1717.826,987.318,,,556.000,288.100,0.000,false,P95>2*base|backlog growing
+read,400.000,1.000,400.000,400.000,0.000,1.000,,,,,,,4012.000,680.300,0.000,false,goodput<0.95*lambda|fail>1%|backlog growing
+read,400.000,2.000,400.000,400.000,0.000,1.000,,,,,,,4011.000,342.200,0.000,false,goodput<0.95*lambda|fail>1%|backlog growing
+read,400.000,3.000,400.000,400.000,0.000,1.000,,,,,,,4011.000,587.000,0.000,false,goodput<0.95*lambda|fail>1%|backlog growing

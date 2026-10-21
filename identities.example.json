@@ -1,0 +1,35 @@
+[
+  {
+    "label": "bench-farmer",
+    "user": "User1@farmers.example.com",
+    "mspId": "FarmersMSP",
+    "role": "farmer",
+    "userKey": "<returned by UserAuthContract:GetMyIdentity>",
+    "peerEndpoint": "localhost:7051",
+    "peerTlsCert": "<fabric-samples>/test-network/organizations/peerOrganizations/farmers.example.com/peers/peer0.farmers.example.com/tls/ca.crt",
+    "certPath": "<fabric-samples>/test-network/organizations/peerOrganizations/farmers.example.com/users/User1@farmers.example.com/msp/signcerts/cert.pem",
+    "keyPath": "<fabric-samples>/test-network/organizations/peerOrganizations/farmers.example.com/users/User1@farmers.example.com/msp/keystore/priv_sk"
+  },
+  {
+    "label": "bench-producer",
+    "user": "User1@producers.example.com",
+    "mspId": "ProducersMSP",
+    "role": "producer",
+    "userKey": "<returned by UserAuthContract:GetMyIdentity>",
+    "peerEndpoint": "localhost:9051",
+    "peerTlsCert": "<fabric-samples>/test-network/organizations/peerOrganizations/producers.example.com/peers/peer0.producers.example.com/tls/ca.crt",
+    "certPath": "<fabric-samples>/test-network/organizations/peerOrganizations/producers.example.com/users/User1@producers.example.com/msp/signcerts/cert.pem",
+    "keyPath": "<fabric-samples>/test-network/organizations/peerOrganizations/producers.example.com/users/User1@producers.example.com/msp/keystore/priv_sk"
+  },
+  {
+    "label": "bench-consumer",
+    "user": "User2@producers.example.com",
+    "mspId": "ProducersMSP",
+    "role": "consumer",
+    "userKey": "<returned by UserAuthContract:GetMyIdentity>",
+    "peerEndpoint": "localhost:9051",
+    "peerTlsCert": "<fabric-samples>/test-network/organizations/peerOrganizations/producers.example.com/peers/peer0.producers.example.com/tls/ca.crt",
+    "certPath": "<fabric-samples>/test-network/organizations/peerOrganizations/producers.example.com/users/User2@producers.example.com/msp/signcerts/cert.pem",
+    "keyPath": "<fabric-samples>/test-network/organizations/peerOrganizations/producers.example.com/users/User2@producers.example.com/msp/keystore/priv_sk"
+  }
+]

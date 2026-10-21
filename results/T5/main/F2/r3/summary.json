@@ -1,0 +1,49 @@
+{
+  "fault": "F2",
+  "label": "stop of the ordering service",
+  "rep": 3,
+  "wrate": 32,
+  "rrate": 64,
+  "baseline": 60,
+  "faultWindow": 30,
+  "observe": 90,
+  "startedAt": "2026-10-21T07:52:42.465Z",
+  "faultRelMs": 60001.48600200005,
+  "restoreRelMs": 90000.90575599996,
+  "faultDetail": "orderer.example.com",
+  "writes": 5760,
+  "reads": 11520,
+  "unresolvedAfterDrain": 0,
+  "writeOutage": {
+    "maxGapMs": 44030.51587799983,
+    "gapStartRelFault": -31.94859699998051
+  },
+  "readOutage": {
+    "maxGapMs": 1113.147886000108,
+    "gapStartRelFault": -0.3279320001602173
+  },
+  "writeRecoveryMs": 13999.147526999936,
+  "readRecoveryMs": 810.9690080001019,
+  "failures": {
+    "write": {
+      "SUBMIT:GRPC_UNAVAILABLE": 1408
+    },
+    "read": {}
+  },
+  "healthyAfterMs": 2044,
+  "heightsEqual": true,
+  "heightFarmers": 19334,
+  "heightProducers": 19334,
+  "reconciliation": {
+    "validClient": 4352,
+    "validOnBoth": 4352,
+    "unknownResolvedValid": 0,
+    "unknownResolvedInvalid": 0,
+    "unknownNotCommitted": 1408,
+    "endorseRejected": 0,
+    "mismatch": 0,
+    "lotsChecked": 8704,
+    "lotsMissing": 0
+  },
+  "consistent": true
+}

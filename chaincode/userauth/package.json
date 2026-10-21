@@ -1,0 +1,12 @@
+{
+  "name": "milkchain",
+  "version": "1.0.0",
+  "main": "userauth.js",
+  "scripts": {
+    "start": "fabric-chaincode-node start"
+  },
+  "dependencies": {
+    "fabric-shim": "^2.5.8",
+    "fabric-contract-api": "^2.5.8"
+  }
+}

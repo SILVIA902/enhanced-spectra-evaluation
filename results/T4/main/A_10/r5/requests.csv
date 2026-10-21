@@ -1,0 +1,11 @@
+test,config,run,req_id,op,client,t0_epoch_ms,l_endorse_ms,l_submit_ms,l_commit_ms,l_e2e_ms,tx_id,block,status,failure_class,l_error_ms
+T4,main-A10,5,1,RegisterProduction,bench-farmer,1792566370956.544,43.417,12.698,20.718,76.833,d71bd9e0d9490ec5994a0841418e16e97e3f9c9174f1a17dcad4f59eefa6fc08,9863,VALID,,
+T4,main-A10,5,2,RegisterProduction,bench-farmer,1792566370957.675,45.224,8.847,21.818,75.889,1372556a6c74728a14cec5941f5874261d1fa443a48c4e8f481cf75fcd5dfec6,9863,VALID,,
+T4,main-A10,5,3,RegisterProduction,bench-farmer,1792566370958.436,43.263,9.277,22.702,75.242,9ce48fe084c64c60d8df319559f68024363751d19e865e14e16da6356ddac061,9863,VALID,,
+T4,main-A10,5,4,RegisterProduction,bench-farmer,1792566370959.411,44.971,12.690,16.917,74.577,4c4b86eefaffa7491daab1beffd2c647e0ef2021206aa6ed8d869e48c6d3612d,9863,VALID,,
+T4,main-A10,5,5,RegisterProduction,bench-farmer,1792566370960.552,45.403,9.299,19.109,73.811,be4cf5fb148379c74c3dde0e086c53c244db9f12aacd766a407576591715f5ca,9863,VALID,,
+T4,main-A10,5,6,RegisterProduction,bench-farmer,1792566370961.305,42.311,8.758,21.416,72.486,a2fbb0d8eb20dc37487e68496b3ca7960f71d0decdb2d8613d05f9fbe1c7f7d8,9863,VALID,,
+T4,main-A10,5,7,RegisterProduction,bench-farmer,1792566370962.522,45.154,8.254,18.340,71.748,84751a661a17e4fccb5b57baaaf273f0e7b3cb21334c0c1c83143db7c35f054b,9863,VALID,,
+T4,main-A10,5,8,RegisterProduction,bench-farmer,1792566370963.113,46.444,7.217,17.122,70.783,75e2d30a79d6e106cb58ca71c3a10b288cade9b52715d09ceae9696b4f74bd47,9863,VALID,,
+T4,main-A10,5,9,RegisterProduction,bench-farmer,1792566370963.564,43.150,8.889,18.477,70.516,9ab3a0ee50827b002713c8f01e050d65dc133f2815b6f566e2451d7ec89e1674,9863,VALID,,
+T4,main-A10,5,10,RegisterProduction,bench-farmer,1792566370964.382,44.462,7.361,17.967,69.791,228f92e6c1ea3381be0697c16120709fae9cdde7b117ae190edc587fc365e8f5,9863,VALID,,

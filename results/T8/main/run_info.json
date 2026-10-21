@@ -1,0 +1,29 @@
+{
+  "test": "T8",
+  "config": "main",
+  "parts": [
+    "A",
+    "B"
+  ],
+  "fanin": [
+    1,
+    5,
+    10,
+    25,
+    50,
+    100
+  ],
+  "depth": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "runs": 3,
+  "iters": 8,
+  "chains": 5,
+  "verify": 5,
+  "retries": 0,
+  "startedAt": "2026-10-21T09:37:33.718Z",
+  "finishedAt": "2026-10-21T10:15:31.656Z"
+}

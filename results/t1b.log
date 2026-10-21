@@ -1,0 +1,501 @@
+nohup: ignoring input
+===== T1 bt1s run 1/5 =====
+iterazione   1/32 (riscaldamento) ok  6.4 s
+iterazione   2/32 (riscaldamento) ok  6.2 s
+iterazione   3/32  ok  6.2 s
+iterazione   4/32  ok  6.2 s
+iterazione   5/32  ok  6.2 s
+iterazione   6/32  ok  6.2 s
+iterazione   7/32  ok  6.2 s
+iterazione   8/32  ok  6.2 s
+iterazione   9/32  ok  6.2 s
+iterazione  10/32  ok  6.2 s
+iterazione  11/32  ok  6.2 s
+iterazione  12/32  ok  6.2 s
+iterazione  13/32  ok  6.2 s
+iterazione  14/32  ok  6.2 s
+iterazione  15/32  ok  6.3 s
+iterazione  16/32  ok  6.3 s
+iterazione  17/32  ok  6.3 s
+iterazione  18/32  ok  6.4 s
+iterazione  19/32  ok  6.3 s
+iterazione  20/32  ok  6.3 s
+iterazione  21/32  ok  6.3 s
+iterazione  22/32  ok  6.3 s
+iterazione  23/32  ok  6.3 s
+iterazione  24/32  ok  6.3 s
+iterazione  25/32  ok  6.3 s
+iterazione  26/32  ok  6.3 s
+iterazione  27/32  ok  6.3 s
+iterazione  28/32  ok  6.3 s
+iterazione  29/32  ok  6.3 s
+iterazione  30/32  ok  6.3 s
+iterazione  31/32  ok  6.3 s
+iterazione  32/32  ok  6.3 s
+
+Riepilogo run 1 (bt1s), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30    1037.5     1041.1    1049.2            11.9         1022.5
+RegisterTransformation        30    1041.4     1042.8    1054.6            15.1         1023.4
+GetProductionByLotCode        30       6.2        6.3       8.5               -              -
+CreatePackageForLot           30    1038.7     1040.8    1050.8            13.1         1022.8
+RegisterBindingForPackage     30    1051.1     1054.8    1066.3            22.7         1025.6
+GetCert                       30       5.5        6.1       6.9               -              -
+VerifyCertIntegrity           30       4.8        5.1       6.6               -              -
+CheckAuthorized               30       4.3        4.1       5.5               -              -
+VerifyByUID                   30       8.8        8.5      11.7               -              -
+ConsumeByUID                  30    1036.9     1037.1    1047.2            10.4         1024.0
+ConsumeByUID_repeat           30    1040.5     1042.9    1053.1            13.8         1023.9
+
+Dati salvati in ../results/T1/bt1s/r1
+===== T1 bt1s run 2/5 =====
+iterazione   1/32 (riscaldamento) ok  6.4 s
+iterazione   2/32 (riscaldamento) ok  6.3 s
+iterazione   3/32  ok  6.3 s
+iterazione   4/32  ok  6.3 s
+iterazione   5/32  ok  6.3 s
+iterazione   6/32  ok  6.3 s
+iterazione   7/32  ok  6.3 s
+iterazione   8/32  ok  6.3 s
+iterazione   9/32  ok  6.3 s
+iterazione  10/32  ok  6.3 s
+iterazione  11/32  ok  6.3 s
+iterazione  12/32  ok  6.3 s
+iterazione  13/32  ok  6.3 s
+iterazione  14/32  ok  6.3 s
+iterazione  15/32  ok  6.3 s
+iterazione  16/32  ok  6.3 s
+iterazione  17/32  ok  6.3 s
+iterazione  18/32  ok  6.3 s
+iterazione  19/32  ok  6.3 s
+iterazione  20/32  ok  6.3 s
+iterazione  21/32  ok  6.3 s
+iterazione  22/32  ok  6.3 s
+iterazione  23/32  ok  6.3 s
+iterazione  24/32  ok  6.3 s
+iterazione  25/32  ok  6.3 s
+iterazione  26/32  ok  6.2 s
+iterazione  27/32  ok  6.2 s
+iterazione  28/32  ok  6.2 s
+iterazione  29/32  ok  6.2 s
+iterazione  30/32  ok  6.2 s
+iterazione  31/32  ok  6.2 s
+iterazione  32/32  ok  6.2 s
+
+Riepilogo run 2 (bt1s), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30    1041.2     1043.5    1053.8            12.5         1025.8
+RegisterTransformation        30    1044.6     1045.1    1057.3            16.4         1025.4
+GetProductionByLotCode        30       6.1        6.6       7.5               -              -
+CreatePackageForLot           30    1041.1     1041.2    1053.2            12.9         1025.4
+RegisterBindingForPackage     30    1052.6     1052.6    1069.4            22.3         1027.5
+GetCert                       30       5.3        5.2       7.3               -              -
+VerifyCertIntegrity           30       4.6        4.6       6.4               -              -
+CheckAuthorized               30       4.3        4.4       5.9               -              -
+VerifyByUID                   30       8.8        8.9      12.0               -              -
+ConsumeByUID                  30    1037.5     1038.4    1051.3            10.4         1024.5
+ConsumeByUID_repeat           30    1041.0     1041.1    1055.9            13.5         1024.8
+
+Dati salvati in ../results/T1/bt1s/r2
+===== T1 bt1s run 3/5 =====
+iterazione   1/32 (riscaldamento) ok  6.3 s
+iterazione   2/32 (riscaldamento) ok  6.2 s
+iterazione   3/32  ok  6.2 s
+iterazione   4/32  ok  6.2 s
+iterazione   5/32  ok  6.2 s
+iterazione   6/32  ok  6.2 s
+iterazione   7/32  ok  6.3 s
+iterazione   8/32  ok  6.3 s
+iterazione   9/32  ok  6.3 s
+iterazione  10/32  ok  6.3 s
+iterazione  11/32  ok  6.3 s
+iterazione  12/32  ok  6.3 s
+iterazione  13/32  ok  6.3 s
+iterazione  14/32  ok  6.3 s
+iterazione  15/32  ok  6.3 s
+iterazione  16/32  ok  6.3 s
+iterazione  17/32  ok  6.3 s
+iterazione  18/32  ok  6.3 s
+iterazione  19/32  ok  6.3 s
+iterazione  20/32  ok  6.3 s
+iterazione  21/32  ok  6.3 s
+iterazione  22/32  ok  6.3 s
+iterazione  23/32  ok  6.3 s
+iterazione  24/32  ok  6.3 s
+iterazione  25/32  ok  6.3 s
+iterazione  26/32  ok  6.3 s
+iterazione  27/32  ok  6.3 s
+iterazione  28/32  ok  6.3 s
+iterazione  29/32  ok  6.3 s
+iterazione  30/32  ok  6.3 s
+iterazione  31/32  ok  6.3 s
+iterazione  32/32  ok  6.3 s
+
+Riepilogo run 3 (bt1s), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30    1040.5     1040.2    1049.8            13.1         1024.3
+RegisterTransformation        30    1044.2     1043.9    1056.2            16.5         1025.0
+GetProductionByLotCode        30       6.4        6.8       8.1               -              -
+CreatePackageForLot           30    1041.4     1042.1    1052.7            13.3         1025.2
+RegisterBindingForPackage     30    1052.9     1054.6    1062.1            23.2         1027.0
+GetCert                       30       5.8        6.2       7.1               -              -
+VerifyCertIntegrity           30       5.0        5.1       6.5               -              -
+CheckAuthorized               30       4.5        4.5       6.4               -              -
+VerifyByUID                   30       8.9        8.8      11.8               -              -
+ConsumeByUID                  30    1038.7     1037.9    1047.8            10.6         1025.4
+ConsumeByUID_repeat           30    1042.3     1042.2    1052.1            14.7         1024.6
+
+Dati salvati in ../results/T1/bt1s/r3
+===== T1 bt1s run 4/5 =====
+iterazione   1/32 (riscaldamento) ok  6.4 s
+iterazione   2/32 (riscaldamento) ok  6.3 s
+iterazione   3/32  ok  6.3 s
+iterazione   4/32  ok  6.3 s
+iterazione   5/32  ok  6.3 s
+iterazione   6/32  ok  6.3 s
+iterazione   7/32  ok  6.3 s
+iterazione   8/32  ok  6.3 s
+iterazione   9/32  ok  6.3 s
+iterazione  10/32  ok  6.3 s
+iterazione  11/32  ok  6.3 s
+iterazione  12/32  ok  6.3 s
+iterazione  13/32  ok  6.3 s
+iterazione  14/32  ok  6.3 s
+iterazione  15/32  ok  6.3 s
+iterazione  16/32  ok  6.3 s
+iterazione  17/32  ok  6.3 s
+iterazione  18/32  ok  6.3 s
+iterazione  19/32  ok  6.3 s
+iterazione  20/32  ok  6.3 s
+iterazione  21/32  ok  6.3 s
+iterazione  22/32  ok  6.3 s
+iterazione  23/32  ok  6.3 s
+iterazione  24/32  ok  6.3 s
+iterazione  25/32  ok  6.3 s
+iterazione  26/32  ok  6.3 s
+iterazione  27/32  ok  6.3 s
+iterazione  28/32  ok  6.3 s
+iterazione  29/32  ok  6.3 s
+iterazione  30/32  ok  6.3 s
+iterazione  31/32  ok  6.3 s
+iterazione  32/32  ok  6.3 s
+
+Riepilogo run 4 (bt1s), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30    1042.9     1041.9    1051.9            13.6         1026.0
+RegisterTransformation        30    1047.4     1047.0    1053.0            17.4         1026.9
+GetProductionByLotCode        30       6.8        6.8       8.5               -              -
+CreatePackageForLot           30    1044.6     1044.0    1052.3            13.9         1027.9
+RegisterBindingForPackage     30    1056.6     1056.5    1064.6            24.2         1029.5
+GetCert                       30       6.3        6.3       7.8               -              -
+VerifyCertIntegrity           30       5.3        5.2       6.7               -              -
+CheckAuthorized               30       4.7        4.7       6.2               -              -
+VerifyByUID                   30       9.6        8.9      13.1               -              -
+ConsumeByUID                  30    1041.5     1041.8    1047.7            11.4         1027.3
+ConsumeByUID_repeat           30    1045.7     1046.1    1054.1            16.2         1026.5
+
+Dati salvati in ../results/T1/bt1s/r4
+===== T1 bt1s run 5/5 =====
+iterazione   1/32 (riscaldamento) ok  6.4 s
+iterazione   2/32 (riscaldamento) ok  6.3 s
+iterazione   3/32  ok  6.3 s
+iterazione   4/32  ok  6.3 s
+iterazione   5/32  ok  6.3 s
+iterazione   6/32  ok  6.3 s
+iterazione   7/32  ok  6.3 s
+iterazione   8/32  ok  6.3 s
+iterazione   9/32  ok  6.3 s
+iterazione  10/32  ok  6.3 s
+iterazione  11/32  ok  6.3 s
+iterazione  12/32  ok  6.3 s
+iterazione  13/32  ok  6.3 s
+iterazione  14/32  ok  6.3 s
+iterazione  15/32  ok  6.3 s
+iterazione  16/32  ok  6.3 s
+iterazione  17/32  ok  6.3 s
+iterazione  18/32  ok  6.3 s
+iterazione  19/32  ok  6.3 s
+iterazione  20/32  ok  6.3 s
+iterazione  21/32  ok  6.3 s
+iterazione  22/32  ok  6.2 s
+iterazione  23/32  ok  6.2 s
+iterazione  24/32  ok  6.2 s
+iterazione  25/32  ok  6.2 s
+iterazione  26/32  ok  6.2 s
+iterazione  27/32  ok  6.2 s
+iterazione  28/32  ok  6.2 s
+iterazione  29/32  ok  6.2 s
+iterazione  30/32  ok  6.2 s
+iterazione  31/32  ok  6.2 s
+iterazione  32/32  ok  6.2 s
+
+Riepilogo run 5 (bt1s), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30    1039.6     1041.2    1051.0            11.7         1024.9
+RegisterTransformation        30    1042.8     1045.2    1054.2            15.6         1024.4
+GetProductionByLotCode        30       5.6        5.9       7.9               -              -
+CreatePackageForLot           30    1039.7     1041.1    1052.0            11.9         1025.0
+RegisterBindingForPackage     30    1050.2     1053.7    1062.2            21.9         1025.5
+GetCert                       30       5.3        5.0       7.2               -              -
+VerifyCertIntegrity           30       4.4        4.3       6.2               -              -
+CheckAuthorized               30       4.0        3.7       5.8               -              -
+VerifyByUID                   30       8.5        7.7      13.1               -              -
+ConsumeByUID                  30    1035.5     1034.8    1046.0            10.2         1022.8
+ConsumeByUID_repeat           30    1040.3     1043.2    1047.4            13.4         1024.1
+
+Dati salvati in ../results/T1/bt1s/r5
+T1 bt1s completato.
+BatchTimeout attuale: 1s   ->   richiesto: 500ms
+[34m2026-10-20 16:42:17.535 CEST 0002 INFO[0m [channelCmd] [34;1mupdate[0m -> Successfully submitted channel update
+BatchTimeout verificato sul canale: 500ms
+MODIFICA RIUSCITA
+===== T1 bt500ms run 1/5 =====
+iterazione   1/32 (riscaldamento) ok  3.3 s
+iterazione   2/32 (riscaldamento) ok  3.2 s
+iterazione   3/32  ok  3.2 s
+iterazione   4/32  ok  3.2 s
+iterazione   5/32  ok  3.2 s
+iterazione   6/32  ok  3.2 s
+iterazione   7/32  ok  3.2 s
+iterazione   8/32  ok  3.2 s
+iterazione   9/32  ok  3.2 s
+iterazione  10/32  ok  3.2 s
+iterazione  11/32  ok  3.2 s
+iterazione  12/32  ok  3.2 s
+iterazione  13/32  ok  3.2 s
+iterazione  14/32  ok  3.2 s
+iterazione  15/32  ok  3.2 s
+iterazione  16/32  ok  3.2 s
+iterazione  17/32  ok  3.2 s
+iterazione  18/32  ok  3.2 s
+iterazione  19/32  ok  3.2 s
+iterazione  20/32  ok  3.2 s
+iterazione  21/32  ok  3.2 s
+iterazione  22/32  ok  3.3 s
+iterazione  23/32  ok  3.2 s
+iterazione  24/32  ok  3.3 s
+iterazione  25/32  ok  3.2 s
+iterazione  26/32  ok  3.2 s
+iterazione  27/32  ok  3.3 s
+iterazione  28/32  ok  3.3 s
+iterazione  29/32  ok  3.3 s
+iterazione  30/32  ok  3.2 s
+iterazione  31/32  ok  3.3 s
+iterazione  32/32  ok  3.3 s
+
+Riepilogo run 1 (bt500ms), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30     530.0      528.2     541.1             7.6          520.0
+RegisterTransformation        30     534.9      532.4     550.5            10.8          521.7
+GetProductionByLotCode        30       4.0        3.9       4.4               -              -
+CreatePackageForLot           30     531.5      530.4     542.9             9.0          520.3
+RegisterBindingForPackage     30     542.5      540.2     556.4            18.0          522.1
+GetCert                       30       4.1        4.1       4.7               -              -
+VerifyCertIntegrity           30       3.4        3.4       3.8               -              -
+CheckAuthorized               30       3.2        3.2       3.9               -              -
+VerifyByUID                   30       6.8        6.7       7.5               -              -
+ConsumeByUID                  30     531.6      528.6     546.1             8.3          521.2
+ConsumeByUID_repeat           30     531.6      530.3     537.2             9.6          519.7
+
+Dati salvati in ../results/T1/bt500ms/r1
+===== T1 bt500ms run 2/5 =====
+iterazione   1/32 (riscaldamento) ok  3.4 s
+iterazione   2/32 (riscaldamento) ok  3.2 s
+iterazione   3/32  ok  3.3 s
+iterazione   4/32  ok  3.2 s
+iterazione   5/32  ok  3.3 s
+iterazione   6/32  ok  3.3 s
+iterazione   7/32  ok  3.2 s
+iterazione   8/32  ok  3.2 s
+iterazione   9/32  ok  3.3 s
+iterazione  10/32  ok  3.3 s
+iterazione  11/32  ok  3.2 s
+iterazione  12/32  ok  3.2 s
+iterazione  13/32  ok  3.3 s
+iterazione  14/32  ok  3.2 s
+iterazione  15/32  ok  3.2 s
+iterazione  16/32  ok  3.2 s
+iterazione  17/32  ok  3.3 s
+iterazione  18/32  ok  3.2 s
+iterazione  19/32  ok  3.2 s
+iterazione  20/32  ok  3.2 s
+iterazione  21/32  ok  3.2 s
+iterazione  22/32  ok  3.2 s
+iterazione  23/32  ok  3.2 s
+iterazione  24/32  ok  3.2 s
+iterazione  25/32  ok  3.3 s
+iterazione  26/32  ok  3.3 s
+iterazione  27/32  ok  3.3 s
+iterazione  28/32  ok  3.3 s
+iterazione  29/32  ok  3.2 s
+iterazione  30/32  ok  3.2 s
+iterazione  31/32  ok  3.2 s
+iterazione  32/32  ok  3.2 s
+
+Riepilogo run 2 (bt500ms), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30     534.8      533.1     544.8             8.2          524.2
+RegisterTransformation        30     536.6      534.9     545.9            11.5          522.8
+GetProductionByLotCode        30       4.1        3.9       5.7               -              -
+CreatePackageForLot           30     535.2      532.1     554.1             9.1          523.8
+RegisterBindingForPackage     30     545.4      544.7     556.7            18.3          524.8
+GetCert                       30       4.3        4.2       6.7               -              -
+VerifyCertIntegrity           30       3.8        3.5       6.0               -              -
+CheckAuthorized               30       3.5        3.2       5.5               -              -
+VerifyByUID                   30       7.2        6.6      12.2               -              -
+ConsumeByUID                  30     534.3      532.4     541.9             8.5          523.6
+ConsumeByUID_repeat           30     533.7      531.8     546.1            10.2          521.2
+
+Dati salvati in ../results/T1/bt500ms/r2
+===== T1 bt500ms run 3/5 =====
+iterazione   1/32 (riscaldamento) ok  3.3 s
+iterazione   2/32 (riscaldamento) ok  3.2 s
+iterazione   3/32  ok  3.2 s
+iterazione   4/32  ok  3.2 s
+iterazione   5/32  ok  3.2 s
+iterazione   6/32  ok  3.2 s
+iterazione   7/32  ok  3.2 s
+iterazione   8/32  ok  3.2 s
+iterazione   9/32  ok  3.2 s
+iterazione  10/32  ok  3.2 s
+iterazione  11/32  ok  3.2 s
+iterazione  12/32  ok  3.2 s
+iterazione  13/32  ok  3.2 s
+iterazione  14/32  ok  3.2 s
+iterazione  15/32  ok  3.2 s
+iterazione  16/32  ok  3.2 s
+iterazione  17/32  ok  3.2 s
+iterazione  18/32  ok  3.2 s
+iterazione  19/32  ok  3.2 s
+iterazione  20/32  ok  3.2 s
+iterazione  21/32  ok  3.2 s
+iterazione  22/32  ok  3.2 s
+iterazione  23/32  ok  3.2 s
+iterazione  24/32  ok  3.2 s
+iterazione  25/32  ok  3.2 s
+iterazione  26/32  ok  3.3 s
+iterazione  27/32  ok  3.3 s
+iterazione  28/32  ok  3.2 s
+iterazione  29/32  ok  3.2 s
+iterazione  30/32  ok  3.2 s
+iterazione  31/32  ok  3.2 s
+iterazione  32/32  ok  3.2 s
+
+Riepilogo run 3 (bt500ms), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30     528.7      527.6     537.4             7.5          518.8
+RegisterTransformation        30     531.7      530.6     538.2            10.7          518.7
+GetProductionByLotCode        30       4.0        4.0       4.5               -              -
+CreatePackageForLot           30     529.2      528.1     536.9             8.4          518.6
+RegisterBindingForPackage     30     539.4      538.4     548.9            17.2          520.0
+GetCert                       30       4.3        4.1       5.5               -              -
+VerifyCertIntegrity           30       3.6        3.4       4.2               -              -
+CheckAuthorized               30       3.3        3.2       4.1               -              -
+VerifyByUID                   30       7.1        6.8       8.4               -              -
+ConsumeByUID                  30     531.6      528.6     552.5             8.3          521.1
+ConsumeByUID_repeat           30     529.2      529.3     533.4             9.4          517.6
+
+Dati salvati in ../results/T1/bt500ms/r3
+===== T1 bt500ms run 4/5 =====
+iterazione   1/32 (riscaldamento) ok  3.3 s
+iterazione   2/32 (riscaldamento) ok  3.3 s
+iterazione   3/32  ok  3.2 s
+iterazione   4/32  ok  3.2 s
+iterazione   5/32  ok  3.2 s
+iterazione   6/32  ok  3.2 s
+iterazione   7/32  ok  3.3 s
+iterazione   8/32  ok  3.2 s
+iterazione   9/32  ok  3.3 s
+iterazione  10/32  ok  3.3 s
+iterazione  11/32  ok  3.3 s
+iterazione  12/32  ok  3.3 s
+iterazione  13/32  ok  3.2 s
+iterazione  14/32  ok  3.2 s
+iterazione  15/32  ok  3.2 s
+iterazione  16/32  ok  3.3 s
+iterazione  17/32  ok  3.2 s
+iterazione  18/32  ok  3.2 s
+iterazione  19/32  ok  3.3 s
+iterazione  20/32  ok  3.2 s
+iterazione  21/32  ok  3.2 s
+iterazione  22/32  ok  3.3 s
+iterazione  23/32  ok  3.2 s
+iterazione  24/32  ok  3.2 s
+iterazione  25/32  ok  3.2 s
+iterazione  26/32  ok  3.2 s
+iterazione  27/32  ok  3.3 s
+iterazione  28/32  ok  3.2 s
+iterazione  29/32  ok  3.2 s
+iterazione  30/32  ok  3.2 s
+iterazione  31/32  ok  3.2 s
+iterazione  32/32  ok  3.2 s
+
+Riepilogo run 4 (bt500ms), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30     533.2      531.1     548.8             8.3          522.4
+RegisterTransformation        30     535.4      533.4     549.7            11.1          521.9
+GetProductionByLotCode        30       4.3        4.0       6.7               -              -
+CreatePackageForLot           30     536.0      532.5     552.3             8.9          524.9
+RegisterBindingForPackage     30     544.3      543.2     558.0            18.9          523.0
+GetCert                       30       4.3        4.1       5.0               -              -
+VerifyCertIntegrity           30       3.6        3.5       4.1               -              -
+CheckAuthorized               30       3.4        3.2       4.2               -              -
+VerifyByUID                   30       6.9        6.6       8.3               -              -
+ConsumeByUID                  30     534.6      534.1     546.6             8.5          524.0
+ConsumeByUID_repeat           30     535.3      532.7     546.4            10.3          522.7
+
+Dati salvati in ../results/T1/bt500ms/r4
+===== T1 bt500ms run 5/5 =====
+iterazione   1/32 (riscaldamento) ok  3.3 s
+iterazione   2/32 (riscaldamento) ok  3.2 s
+iterazione   3/32  ok  3.3 s
+iterazione   4/32  ok  3.3 s
+iterazione   5/32  ok  3.3 s
+iterazione   6/32  ok  3.2 s
+iterazione   7/32  ok  3.2 s
+iterazione   8/32  ok  3.2 s
+iterazione   9/32  ok  3.2 s
+iterazione  10/32  ok  3.3 s
+iterazione  11/32  ok  3.3 s
+iterazione  12/32  ok  3.2 s
+iterazione  13/32  ok  3.2 s
+iterazione  14/32  ok  3.2 s
+iterazione  15/32  ok  3.2 s
+iterazione  16/32  ok  3.2 s
+iterazione  17/32  ok  3.2 s
+iterazione  18/32  ok  3.2 s
+iterazione  19/32  ok  3.2 s
+iterazione  20/32  ok  3.2 s
+iterazione  21/32  ok  3.2 s
+iterazione  22/32  ok  3.2 s
+iterazione  23/32  ok  3.2 s
+iterazione  24/32  ok  3.2 s
+iterazione  25/32  ok  3.2 s
+iterazione  26/32  ok  3.2 s
+iterazione  27/32  ok  3.2 s
+iterazione  28/32  ok  3.2 s
+iterazione  29/32  ok  3.2 s
+iterazione  30/32  ok  3.2 s
+iterazione  31/32  ok  3.3 s
+iterazione  32/32  ok  3.3 s
+
+Riepilogo run 5 (bt500ms), iterazioni misurate: 30, fallite: 0
+operazione                    n    e2e media   e2e P50   e2e P95   endorse media   commit media
+RegisterProduction            30     529.2      526.8     540.6             8.1          518.7
+RegisterTransformation        30     534.3      530.3     549.0            11.5          520.4
+GetProductionByLotCode        30       4.4        4.0       6.8               -              -
+CreatePackageForLot           30     530.1      528.0     544.0             9.2          518.5
+RegisterBindingForPackage     30     540.6      538.1     555.3            18.2          520.1
+GetCert                       30       4.5        4.0       7.0               -              -
+VerifyCertIntegrity           30       3.9        3.4       6.4               -              -
+CheckAuthorized               30       3.5        3.2       5.7               -              -
+VerifyByUID                   30       7.4        6.6      13.2               -              -
+ConsumeByUID                  30     530.5      527.8     546.6             9.0          519.3
+ConsumeByUID_repeat           30     530.9      529.0     538.8            10.3          518.4
+
+Dati salvati in ../results/T1/bt500ms/r5
+T1 bt500ms completato.
+BatchTimeout attuale: 500ms   ->   richiesto: 2s
+[34m2026-10-20 16:51:12.003 CEST 0002 INFO[0m [channelCmd] [34;1mupdate[0m -> Successfully submitted channel update
+BatchTimeout verificato sul canale: 2s
+MODIFICA RIUSCITA
