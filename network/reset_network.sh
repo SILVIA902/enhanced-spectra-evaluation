@@ -23,6 +23,8 @@ echo "Docker server version: $(docker version --format '{{.Server.Version}}')"
 
 cd "$TN"
 ./network.sh down
+docker ps -aq --filter "name=example.com" | xargs -r docker rm -f >/dev/null
+docker volume ls -q | grep -E "(orderer|peer0\.farmers|peer0\.producers)\.example\.com" | xargs -r docker volume rm >/dev/null || true
 ./network.sh up
 
 (cd compose && $COMPOSE -f compose-ca.yaml up -d)

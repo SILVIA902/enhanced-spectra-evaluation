@@ -140,6 +140,8 @@ t8.js  [--parts A,B] [--fanin 1,5,10,25,50,100] [--depth 1,5,10,20] [--runs 3] [
   of `peer0.producers`, `F2` stop/start of the orderer, `F3` kill of the chaincode container, `F4` disconnection of
   `peer0.producers` from its Docker networks.
 
+The comparison with the original SPECTRA prototype (Section 5.6 of the paper) uses the SPECTRA chaincode, which is not part of this repository; the chaincode, the scripts and the raw data of that experiment are available from the authors on request.
+
 ## Regenerating the results
 
 The analysis scripts read the raw data in `results/` and write the summaries, LaTeX tables and figures in an
