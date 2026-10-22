@@ -5,9 +5,6 @@ scripts used for the experimental evaluation of **Enhanced SPECTRA**, a privacy-
 framework on Hyperledger Fabric. It allows the experiments to be re-executed and the tables and figures of the
 evaluation to be regenerated from the raw data.
 
-The complete experimental protocol (design of each test, metrics, saturation criterion, statistics and detailed
-results) is in [`docs/campaign_protocol.pdf`](docs/campaign_protocol.pdf).
-
 ## Contents
 
 | Folder | Content |
@@ -21,7 +18,6 @@ results) is in [`docs/campaign_protocol.pdf`](docs/campaign_protocol.pdf).
 | `harness` | Workload generator (Fabric Gateway SDK) for tests T1–T5 and T8, resource and storage monitors |
 | `analysis` | Scripts that compute the statistics, tables and figures from the raw data |
 | `results` | Raw measurements of all tests (CSV and JSON) and console logs of each execution |
-| `docs` | Experimental protocol |
 
 Chaincode files (SHA-256):
 
@@ -41,8 +37,8 @@ Chaincode files (SHA-256):
 | Docker Engine with Docker Compose | — |
 | jq | — |
 
-The measurements were collected on a single host (Linux on WSL2); see Section 5 of the paper and Section 2 of the
-protocol for the hardware and the network configuration (one peer per organisation, one Raft orderer, LevelDB, TLS,
+The measurements were collected on a single host (Linux on WSL2); see Section 5 of the paper for
+the hardware and the network configuration (one peer per organisation, one Raft orderer, LevelDB, TLS,
 endorsement policy requiring both organisations, `BatchTimeout` = 2 s, `MaxMessageCount` = 10).
 
 ## Setup
